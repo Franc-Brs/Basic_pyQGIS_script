@@ -16,9 +16,6 @@ If you prefer you can load a raster file from the desired directory by uncomment
 
 The output raster is called "ideal_h.tif" by default and it is saved in the working directory, you can change this behavior by changing the `output_raster_path` passing the desired path and name. 
 
-By changing this variable:
+You will change the target crs by changing this variable:
 
 `crs_target=QgsCoordinateReferenceSystem("EPSG:3003")`
-
-
-You will change the target crs.
