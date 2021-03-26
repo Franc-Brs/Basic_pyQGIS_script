@@ -1,7 +1,7 @@
 # Basic_pyQGIS_script
 Very simple script to apply an expression with QgsRasterCalculator to a Raster layer.
 
-This script should be run in the QGIS Python Console. In this current version it will take a raster layer from the QGIS project, it will create a QgsRasterCalculator object and then it will write and load in the project a new raster file after applying a simple expression (the variable `expression` in the script).
+This script should be run in the QGIS Python Console. In this current version it will take a raster layer (dtm) from the QGIS project, it will create a QgsRasterCalculator object and then it will write and load in the project a new raster file after applying a simple expression (the variable `expression` in the script).
 
 The **INPUT** raster is taken from the QGIS project, so after loading a raster file on the project you should replace  `dtm_veneto` with the desired input raster layer name in: 
 
