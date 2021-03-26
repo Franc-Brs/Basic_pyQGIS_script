@@ -29,5 +29,5 @@ rlayer.height(), entries, QgsCoordinateTransformContext() )
 
 calculation.processCalculation()
 
-##add the output raster to Qgis in the 
+##add the output raster to the QGIS project
 fin_res = iface.addRasterLayer(output_raster_path,"ideal_h","gdal") 
