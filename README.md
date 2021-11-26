@@ -7,7 +7,6 @@ The **INPUT** raster is taken from the QGIS project, so after loading a raster f
 
 `rlayer = QgsProject.instance().mapLayersByName('dtm_veneto')[0]` 
 
-By the way you can try with the same raster layer that I used and that you can find on this repository.
 I thought that this approach was less prone to path-related errors but if you prefer you can load a raster file from the desired directory by uncommenting and replacing the desired file path in here (of course you also have to cancel the line where you get the raster from the QGIS project): 
 
 `#rlayer = QgsRasterLayer("your/input/raster/path/fileName")`
